@@ -5,4 +5,4 @@ output:5
 •	The function should handle any number of arrays as input.
 •	Each array can have any number of elements.
 •	The combined array should only contain numbers.
-•	Round the average to 2 decimal places.
+
