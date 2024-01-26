@@ -1,0 +1,12 @@
+combineAndAverage([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+
+function combineAndAverage(...numbers){
+    console.log(numbers)
+    let newArray=[].concat(...numbers)
+//let newArray=[...numbers.flat()]
+    let count=newArray.length
+    console.log(newArray)
+    let sum=newArray.reduce((element,a)=>element+a)
+    console.log(sum)
+    let result=sum/count
+    console.log(result)
